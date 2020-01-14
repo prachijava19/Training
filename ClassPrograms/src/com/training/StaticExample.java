@@ -1,10 +1,14 @@
 package com.training;
 
-public class StaticExample {
+public class StaticExample implements InterfaceSample,InterfaceSample2{
 	
 	static int count = 0;
 	final int counter = 0;
 	
+	
+	public void printClass(){
+		
+	}
 	
 	 void increment()
 	{
@@ -19,6 +23,8 @@ public class StaticExample {
    
    
 	public static void main(String[] args) {
+		
+		InterfaceSample samp = new StaticExample();//upcasting
 		
 		StaticExample obj = new StaticExample();
 		obj.increment();
