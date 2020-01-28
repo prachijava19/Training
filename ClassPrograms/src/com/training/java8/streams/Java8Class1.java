@@ -1,4 +1,4 @@
-package com.training.java8;
+package com.training.java8.streams;
 
 import java.util.Arrays;
 import java.util.List;
@@ -44,6 +44,8 @@ public class Java8Class1 {
 
 		emp.stream().filter(s -> s != null).sorted().collect(Collectors.toSet()).forEach(s -> System.out.println(s));
 		;
+		
+		
 
 	}
 }
