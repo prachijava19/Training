@@ -6,6 +6,12 @@ import java.util.stream.Collectors;
 
 public class Test {
 	
+	static void movezero(int[] arr)
+	{
+		
+		
+	}
+	
 	public long getRoof(List<Long> cars,int k)
 	{
 		long size  = 0L;
